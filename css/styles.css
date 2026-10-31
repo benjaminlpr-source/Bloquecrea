@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000;
+    background: #fff;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #1f4d2e;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1f4d2e;
+    border-bottom: 4px solid #f2b705;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+a {
+    color: #1f4d2e;
+}
+
+/* ---------- Cabecera y menú ---------- */
+header {
+    background: #1f4d2e;
+    padding: 15px 0;
+    border-bottom: 6px solid #f2b705;
+}
+
+.logo {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu_link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin-right: 4px;
+}
+
+.activo {
+    background: #f2b705;
+    color: #000;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, #1f4d2e, 70%, #000);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 6px solid #f2b705;
+}
+
+.hero_title {
+    margin: 0 0 10px 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.card {
+    background: #1f4d2e;
+    color: #fff;
+    box-sizing: border-box;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 25px #000;
+}
+
+.card_img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card_title {
+    margin: 10px 0 0 0;
+    font-size: 1.3rem;
+    color: #f2b705;
+}
+
+.card_content {
+    margin: 5px 0 0 0;
+    padding: 10px;
+    padding-bottom: 0;
+    font-size: 1rem;
+}
+
+.boton {
+    background: #f2b705;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.galeria_img {
+    box-sizing: border-box;
+    width: 30%;
+    margin: 1%;
+    border-radius: 8px;
+    border: 3px solid #1f4d2e;
+}
+
+.formulario {
+    background: #1f4d2e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formulario_link {
+    color: #f2b705;
+}
+
+label {
+    font-weight: bold;
+}
+
+.formulario_input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    font-size: 1rem;
+    border: 2px solid #f2b705;
+}
+
+.mapa {
+    box-sizing: border-box;
+    width: 100%;
+    border: 3px solid #1f4d2e;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+    border-top: 6px solid #f2b705;
+}
+
+.pie_link {
+    color: #f2b705;
+}
+
+address {
+    font-style: normal;
+}

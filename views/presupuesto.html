@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto | BloqueCrea</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <!-- CABECERA: logotipo y menú-->
+    <header>
+        <div class="contenedor">
+            <p class="logo">
+                <img src="../images/logo.svg" alt="Logotipo de BloqueCrea" width="36" height="36">
+                BloqueCrea
+            </p>
+            <nav>
+                <a class="menu_link" href="../index.html">Inicio</a>
+                <a class="menu_link" href="productos.html">Productos</a>
+                <a class="menu_link activo" href="presupuesto.html">Presupuesto</a>
+                <a class="menu_link" href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTENIDO-->
+    <main>
+        <div class="contenedor">
+            <section>
+                <h1>Pide tu presupuesto</h1>
+                <p>Rellena todos los campos y te respondemos en un día laborable.</p>
+
+                <form class="formulario">
+                    <label for="nombre">Nombre</label>
+                    <input class="formulario_input" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required minlength="2">
+
+                    <label for="email">Email</label>
+                    <input class="formulario_input" type="email" id="email" name="email" placeholder="Pon un email" required>
+
+                    <label for="telefono">Teléfono</label>
+                    <input class="formulario_input" type="tel" id="telefono" name="telefono" placeholder="9 números" required minlength="9" maxlength="9">
+
+                    <label for="info">Solicita más información</label>
+                    <textarea class="formulario_input" id="info" name="info" rows="6" placeholder="Cuéntanos qué piezas necesitas" required></textarea>
+
+                    <p>
+                        <input type="checkbox" id="privacidad" name="privacidad" required>
+                        <label for="privacidad">Acepto la <a class="formulario_link" href="contacto.html#politica-privacidad">Política de privacidad</a></label>
+                    </p>
+
+                    <input class="boton" type="submit" value="Enviar solicitud">
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA: redes sociales, dirección y aviso legal -->
+    <footer>
+        <p>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.svg" alt="Facebook" width="36" height="36"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../images/instagram.svg" alt="Instagram" width="36" height="36"></a>
+            <a href="https://x.com/" target="_blank"><img src="../images/x.svg" alt="X" width="36" height="36"></a>
+        </p>
+        <address>Calle de los Ladrillos, 8 · 28001 Ciudad Ficticia</address>
+        <p><a class="pie_link" href="contacto.html#aviso-legal">Aviso legal</a></p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
